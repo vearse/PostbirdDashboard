@@ -1,0 +1,10 @@
+.about-page .header{
+    position: relative;
+    background: white;
+}
+.about-page .login a {
+    color: #FEBC52!important
+}
+.about-page .how-to-get-started{
+    display: none;
+}

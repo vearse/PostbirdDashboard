@@ -1,0 +1,37 @@
+.faq{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: #FEBC52;
+}
+.faq h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+.faq .sub-heading{
+    font-size: 14px;
+    font-size: 300;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.faq .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f7;
+    margin-bottom: 20px;
+    padding: 7px 20px;
+}
+.faq .text{
+    display: flex;
+    align-items: center;
+}
+.faq .text p{
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.plus img{
+    width: 35px;
+}

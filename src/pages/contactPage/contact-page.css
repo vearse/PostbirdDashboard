@@ -1,0 +1,11 @@
+.contact-page .header{
+    position: relative;
+    background: white;
+}
+.contact-page .login a {
+    color: #FEBC52!important
+}
+.contact-page h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}

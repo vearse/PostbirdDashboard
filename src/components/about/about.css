@@ -1,0 +1,40 @@
+.about{
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.about h3{
+    margin-bottom: 2.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}
+.content h3 span{
+    font-size: 38px;
+    font-weight: 600;
+    color:  #FEBC52;
+}
+.about .content h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about .content p{
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+.advantage{
+    margin-bottom: 60px;
+}
+.about .how-to-get-started h3{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.how-to-get-started p{
+    font-size: 14px;
+}

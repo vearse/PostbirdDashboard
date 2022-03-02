@@ -1,0 +1,88 @@
+.services{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #121212;
+    color: white;
+}
+.services h3{
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 2rem;
+    color: #FEBC52;
+}
+.services h3 span{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.services p span{
+    color: #FEBC52;
+}
+.services p{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.services .row{
+    margin-top: 60px;
+}
+.col-md-4 .content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.content img{
+    width: 60px;
+    height: 60px;    
+}
+.services .content h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.services .content h5::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
+    width: 40px;
+    height: 3px;
+    background: #FEBC52;
+}
+.content p{
+    font-size: 13.5px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 990px){
+    .services p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .services .row > div{
+        margin-bottom: 2rem;
+    }
+    .services h3{
+        font-size: 22px;
+    }
+    .services .main-text{
+        font-size: 13px;
+        line-height: 2;
+    }
+    .col-md-4 .content {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    
+    /* .content{
+        margin-bottom: 0;
+    } */
+}

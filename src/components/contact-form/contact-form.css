@@ -1,0 +1,56 @@
+.contact-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-form h4{
+    font-size: 14px;
+    color:#757575;
+    margin-bottom: 1.3rem;
+}
+.contact-form .form-group{
+    display: block;
+}
+.contact-form .lagos, .contact-form .abuja{
+    background: #eeeeee;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 400px;
+}
+.contact-form .content h5{
+    font-size: 14px;
+    color: #757575;
+}
+.contact-form .content p{
+    color: #757575;
+}
+.contact-form form input, textarea{
+    margin-bottom: 1.5rem;
+    border: none!important;
+    background: #eeeeee!important;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+.contact-form input[type=button]{
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background: #FEBC52!important;
+    padding: 7px 30px;
+    font-size: 14px;
+}
+@media only screen and (max-width:580px) {
+    .contact-form .lagos, .contact-form .abuja{
+        width: 300px;
+    }
+    .contact-form .content{
+        margin-bottom: 0;
+    }
+    .contact-form .mt-3{
+        margin-top: 5px!important;
+    }
+    .contact-form label{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,90 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-nav .nav-item{
+    margin-right: 20px;
+}
+.navbar-nav .nav-item a{
+    color: black!important;
+}
+.navbar-nav .nav-item a:hover{
+    color: #FEBC52!important;
+    transform: scale(1.1);
+}
+.navbar-nav .nav-item button a:hover{
+    color: white!important;
+}
+/* .header nav{
+    background: rgba(254, 188, 82, 0.05);
+} */
+.header nav .logo{
+    width: 80%;
+}
+.login{
+    border: none;
+    background: black;
+}
+.nav-item .login a{
+    color: #FEBC52!important;
+}
+.register a{
+    color: white;
+}
+.register{
+    border: none;
+    background: #FEBC52;
+    color: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex img{
+    width: 10px;
+}
+.navbar-expand-lg .navbar-nav{
+    align-items: center;
+}
+.nav-item a{
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-item button{
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+    .navbar-nav .nav-item{
+        margin-right: 0px;
+    }   
+    .header .navbar-nav.buttons li{
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .header .navbar-collapse{
+        background: #FEBC52;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 5px;
+    }
+    .header .nav-item a{
+        font-size: 19px;
+        line-height: 2;
+        text-transform: uppercase;
+    }
+    .header .login{
+        width: 180px;
+    }
+    .navbar-nav .nav-item a:hover{
+        color: black!important;
+        transform: scale(1.1);
+    }
+}

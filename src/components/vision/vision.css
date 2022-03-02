@@ -1,0 +1,35 @@
+.vision{
+    background: #FBFBFB;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.vision h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.vision .images{
+    position: relative;
+}
+.vision .images .big_img{
+    width: 70%;
+    height: 70%;
+}
+.vision .images .sm_img{
+    position: absolute;
+    right: 60px;
+    bottom: -60px;
+    width: 50%;
+    height: 250px;
+}
+.vision .content > div{
+    margin-bottom: 2rem;
+}
+.vision .content h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.vision .content p{
+    width: 80%;
+}

@@ -1,0 +1,128 @@
+.register-header{
+    background: #242424;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.register-header h3 span{
+    color: #FEBC52;
+}
+.register-header h3{
+    font-weight: 700;
+}
+.register-form{
+    background: url('../../assets/Frame\ 176.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.register-form .col-lg-6{
+    background: white;
+    border-radius: 5px;
+    padding: 3rem;
+}
+.progress-top-bar{
+    display: flex;
+    align-items: center;
+}
+.progress-top-bar > div{
+    width: 33%;
+    text-align: center;
+    position: relative;
+}
+.progress-top-bar > div img{
+    width: 15px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.progress-top-bar .group1::after,.progress-top-bar .group2::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: #8D9091;
+    top: 20%;
+    left: 55%;
+}
+.progress-top-bar p{
+    font-size: 12px;
+    color: #8D9091;
+}
+.register-form form{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.register-form select, .register-form input{
+    width: 100%;
+    border: 1px solid #BCBCBC;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: .5rem .8rem;
+    border-radius: 5px;
+}
+.register-form label{
+    font-size: 13px;
+    font-weight: 500;
+}
+.register-form select option:focus{
+    background: #FEBC52;
+    color: white;
+}
+.register-form button{
+    background: #FEBC52;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2rem;
+}
+button, input, select:focus{
+    outline: none;
+}
+.register_ a{
+    color: white;
+}
+.register_ .documents{
+    padding: 1rem;
+    border: 1px solid #dfdede;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+.documents p{
+    font-size: 12px;
+    color: #BCBCBC;
+}
+.documents h4{
+    font-size: 13px;
+    font-weight: bold;
+}
+.documents .text-right{
+    text-align: right;
+}
+input[type="file"]{
+    border: none;
+    width: 150px;
+    margin: 0;
+}
+.documents .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.documents .custom-file-input::before {
+    content: 'Upload photo';
+    display: inline-block;
+    background: #FEBC52;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 20px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+}

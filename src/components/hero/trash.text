@@ -1,0 +1,221 @@
+import React from "react";
+import '../hero/styles.css';
+
+function Hero() {
+    return (
+      <div className="hero">
+        <div className="overlap-group8">
+          <div className="overlap-group7">
+            <div className="overlap-group6">
+              <h1 className="text-1">
+                <span className="inter-bold-eerie-black-48px">The best solution for your </span>
+                <span className="span-1">logistics</span>
+                <span className="inter-bold-eerie-black-48px"> needs. Anytime ! Anywhere !</span>
+              </h1>
+              <div className="overlap-group3">
+                <div className="ellipse-77"></div>
+                <div className="overlap-group2">
+                  <div className="frame-9-1">
+                  <div className="group-11">
+                    {/* <div className="overlap-group-2">
+                      <img
+                        className="vector-4"
+                        src="vector.png"
+                      />
+                      <img
+                        className="vector-5"
+                        src="vector-1.png"
+                      />
+                      <img
+                        className="vector-6"
+                        src="vector-2.png"
+                      /> */}
+                    {/* </div> */}
+                  </div>
+                  <div className="group-13">
+                    <div className="overlap-group1-1">
+                      <div className="post-bird-1">
+                        <span className="span-1">Post</span>
+                        <span className="span1-1">Bird</span>
+                      </div>
+                      <div className="logistics-1macondo-normal-black-9-2px">
+                        Logistics
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Group192 />
+            <div className="frame-3903opensans-normal-onyx-16px">
+              <div className="become-a-driver">
+                Become a driver
+              </div>
+              <div className="fleet-owners">
+                Fleet Owners
+              </div>
+              </div>
+          </div>
+          <div className="text-2">
+            We ensure on-time delivery and efficient customer services
+            <br />
+            by bringing your goods in the fastest way with flexible <br />
+            pricing.
+          </div>
+          <div className="overlap-group4border-0-5px-white">
+            <div className="overlap-group-3">
+              {/* <img
+                className="path40"
+                src="path40.svg"
+              />
+              <img
+                className="path42"
+                src="path42.svg"
+              />
+                <img
+                className="path44"
+                src="path44.svg"
+              />
+              <img
+                className="path46"
+                src="path46.svg"
+              />
+              <img
+                className="path48"
+                src="path48.svg"
+              />
+              <img
+                className="path50"
+                src="path50.svg"
+              />
+              <img
+                className="path52"
+                src="path52.svg"
+              />
+              <img
+                className="path54"
+                src="path54.svg"
+              /> */}
+            </div>
+            <p className="text-3inter-medium-white-9-1px">
+              <span className="inter-medium-white-9-1px">
+                Android app on <br />
+              </span>
+              <span className="inter-semi-bold-white-11-7px">Google Play</span>
+            </p>
+          </div>
+          <div className="overlap-group5">
+            <div className="group-25border-0-5px-white">
+              {/* <img
+                className="coolicon"
+                src="coolicon.svg"
+              /> */}
+            </div>
+            <div className="text-4inter-medium-white-9-1px">
+              <span className="inter-medium-white-9-1px">Download on</span>
+              <span className="inter-medium-white-7-3px">
+                {" "}
+                <br />
+              </span>
+              <span className="inter-semi-bold-white-11-7px">App stores</span>
+            </div>
+          </div>
+          <div className="text-5opensans-normal-heavy-metal-16px">
+            DOWNLOAD THE POSTBIRD APP
+          </div>
+          <Frame9 />
+        </div>
+        <div className="flex-row">
+          <div className="place-1opensans-semi-bold-yellow-orange-16px">
+            Home
+          </div>
+          <div className="our-servicesopensans-normal-black-16px">
+            Our services
+          </div>
+          <div className="about-usopensans-normal-black-16px">
+            About us
+          </div>
+          <div className="contact-usopensans-normal-black-16px">
+            Contact us
+          </div>
+          <div className="frame-12">
+            <div className="partner-with-usopensans-normal-black-16px">
+              Partner with us
+            </div>
+            {/* <img
+              className="stroke-1"
+              src="stroke-1.svg"
+            /> */}
+          </div>
+          <div className="group-200">
+            <div className="enopensans-normal-onyx-18px">
+              En
+              </div>
+            {/* <img
+              className="shape"
+              src="shape.svg"
+            /> */}
+          </div>
+          <div className="log-inopensans-semi-bold-yellow-orange-16px">
+            Log in
+          </div>
+          <Frame14 />
+        </div>
+      </div>
+    </div>
+  );
+}
+export default Hero;
+
+function Group192() {
+  return (
+    <div className="group-192">
+      <div className="overlap-group">
+        {/* <img
+          className="vector"
+          src="vector-31.svg"
+        /> */}
+      </div>
+    </div>
+  );
+}
+function Frame9() {
+    return (
+      <div className="frame-9">
+        {/* <div className="overlap-group-1">
+          <img
+            className="vector-1"
+            src="vector-3.png"
+          />
+          <img
+            className="vector-2"
+            src="vector-4.png"
+          />
+        <img
+          className="vector-3"
+          src="vector-5.png"
+        />
+      </div> */}
+      <div className="overlap-group1">
+        <div className="post-bird">
+          <span className="span0">Post</span>
+          <span className="span1">Bird</span>
+        </div>
+        <div className="logisticsmacondo-normal-black-16px">
+          Logistics
+        </div>
+      </div>
+      </div>
+  );
+}
+
+
+function Frame14() {
+  return (
+    <div className="frame-14">
+      <div className="place">
+        Register
+      </div>
+    </div>
+  );
+  }  

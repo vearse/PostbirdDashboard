@@ -1,0 +1,85 @@
+.hero{
+    background :  url(../../assets/TOP\ HERO.jpg);
+    padding-top: 4rem;
+}
+.hero .row{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-text{
+    /* margin-top: 1.5rem; */
+    text-align: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.hero-text h1{
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 2.5em;
+}
+.hero-text span{
+    color: #FEBC52;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.hero-text p{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:#2C2C2C;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-text h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero-img{
+    width: 95%;
+    margin-right: -30px;
+}
+.hero .text-right{
+    text-align: right;
+}
+.download img{
+    margin-right: 20px;
+    width: 150px;
+    /* margin-bottom: 60px; */
+}
+@media only screen and (max-width: 990px){
+    .hero .col-lg-6 img.hero-img{
+        width: 60%;
+    }
+    .hero .row .col-lg-6{
+        text-align: center;
+    }
+    .hero .hero-text, .hero-text p{
+        text-align: center;
+    }
+    .hero-text p{
+        margin: 30px auto;
+    }
+    .hero-text .download{
+        margin-bottom: 3rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .hero .col-lg-6 img.hero-img{
+        width: 80%;
+    }
+    .hero-text{
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .hero-text h1{
+        font-size: 23px;
+    }
+    .download img{
+        width: 100px;
+    }
+}

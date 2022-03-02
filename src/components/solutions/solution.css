@@ -1,0 +1,79 @@
+.solution{
+    background: #FFB640;
+    padding-bottom: 90px;
+}
+.solution .row{
+    --bs-gutter-x : 0;
+}
+.wrapper > img{
+    width: 451px;
+    height: 565px;
+    object-fit: cover;
+    margin-top: -80px;
+}
+.wrapper .left{
+    margin-left: 20%;
+}
+.wrapper .right{
+    margin-left: -20%;
+}
+.wrapper{
+    text-align: center;
+}
+.wrapper .icon{
+    width: 45px;
+    margin: auto;
+}
+.wrapper .text{
+    width: 300px;
+    margin: auto;
+}
+.text h4{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.text p{
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+.wrapper .location, .wrapper .shipper{
+    width: 35px;
+}
+@media only screen and (max-width: 990px){
+    .wrapper .left{
+        margin-left: 0%;
+    }
+    .wrapper .right{
+        margin-left: -25%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .wrapper .left{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .wrapper .left{
+        margin-left: 13%;
+        /* width: 60%; */
+    }
+}
+@media only screen and (max-width: 430px){
+    .wrapper .left{
+        margin-left: 2%;
+    }
+    .wrapper > img {
+        width: 126%;
+        height: 340px;
+        object-fit: contain;
+    }
+    .text h4{
+        font-size: 16px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+}

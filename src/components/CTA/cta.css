@@ -1,0 +1,43 @@
+.cta .mockup img{
+    width: 600px;
+    margin-left: -30%;
+}
+.cta h3{
+    font-weight: 700;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+}
+.cta .row{
+    align-items: center;
+}
+.cta p{
+    font-weight: 500;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.cta .app-icons{
+    margin-top: 3rem;
+}
+.cta .app-icons img{
+    width: 130px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 990px){
+    .cta .mockup{
+        text-align: center;
+    }.cta .text{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .cta{
+        margin-bottom: 5rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .cta .mockup img{
+        width: 320px;
+    }
+    .text h3{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,84 @@
+.login-header{
+    background: #242424;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.login-header .contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-header p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.main-content{
+    background: url(../../assets/Frame\ 167.png);
+    width: 100%;
+}
+.login-page .row{
+    --bs-gutter-x: 0!important;
+}
+.login-page .col-lg-4{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.login-page .form-content{
+    background: white;
+    border-radius: 10px;
+    padding: 3rem 3rem;
+}
+.form-content h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-content p, .form-content label{
+    font-size: 13px;
+    font-weight: 400;
+    color: #757575;
+
+}
+.form-content input{
+    margin-bottom: 1em;
+    font-size: 13px;
+    color:#CCCCCC;
+    
+}
+.form-content select{
+    font-size: 13px;
+}
+.form-content button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background: #FEBC52;
+}
+.form-content span{
+    color: blue;
+}
+.form-content .tnc{
+    display: flex;
+    align-items: flex-start;
+}
+.tnc img{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.tnc p{
+    color: rgba(119, 119, 119, 0.8);
+    font-size: 12px;
+}
+.form-content button a{
+    color: white;
+    text-decoration: none;
+}
+.image-box .success{
+    width: 70px;
+    margin-bottom: 2rem;
+}
